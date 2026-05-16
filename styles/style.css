@@ -32,10 +32,6 @@ body{
     color: white;
     
 }
-/*section à propos*/
-.about{
-    padding-top: 20px;
-}
 .banner{
     padding: 20px;
 }
@@ -76,6 +72,52 @@ button a{
 }
 .btn1{
     border: none;
+}
+
+/*section à propos*/
+.about{
+    padding-top: 20px;
+   border: 1px solid white;
+    border-radius: 5px;
+    /*padding: 20px;*/
+    background-color: #060f25;
+    padding: 60px;
+    border-radius: 20px;
+    justify-content: space-between;
+}
+.about1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.ligne {
+    border-left: 2px solid white;
+    height: 100px;
+}
+
+.info{
+    margin-left: 20px;
+    line-height: 1.6;
+}
+.info2{
+    line-height: 1.6;
+}
+.info3{
+    display: flex;
+}
+.nom{
+    display: flex;
+}
+.mail{
+    display: flex;
+}
+.loca{
+    display: flex;
+}
+.heure{
+    display: flex;
+}
+.job{
+    display: flex;
 }
 /*section work*/
 /*section cv*/
