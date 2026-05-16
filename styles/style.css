@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*en tête*/
+header{
+    background-color: rgb(141, 141, 141);
+    padding: 20px;
+}
+
+/*barre de navigation*/
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+/*lien du menu*/
+nav a{
+    text-decoration: none;
+    color: white;
+    font-family: roboto;
+    font-size: 18px;
+}
