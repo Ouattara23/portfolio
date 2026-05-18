@@ -18,6 +18,9 @@
             <a href="#">CV</a>
             <a href="#">Contact</a>
         </nav>
+        <div>
+            
+        </div>
     </header>
 
     <!--Contenu de ma page-->
@@ -28,15 +31,27 @@
                 <div>
                     <p>Salut, je suis</p>
                     <h4>Ouattara Yah</h4>
-                    <h3>Je suis une Dévéloppeuse Front-End</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit?</p>
-                    <button class="btn1">
-                        <a href="">Voir mes projets</a>
-                    </button>
-                    <button>
-                        <a href="">Télécharger mon CV</a>
-                    </button>
+                    <h3>Je suis Dévéloppeuse Front-End</h3>
+                    <p>Je conçois et dévéloppe des applications web modernes, rapides responsives avec des technologies performantes.</p>
+                    <div class="btn">
+                        <button class="btn1">
+                            <a href="">Voir mes projets</a>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                        <button>
+                            <a href="">Télécharger mon CV</a>
+                            <i class="fa-solid fa-download"></i>
+                        </button>
+                    </div>
+                    <!--icône réseau socio-->
+                <div class="icône">
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="#"><i class="fa-solid fa-envelope"></i></a> 
                 </div>
+                </div>
+                
                 <div class="image">
                     <img src="images/photo2.png" alt="c'est une photo">
                 </div>
@@ -55,20 +70,23 @@
                         <p>Je suis Développeuse Full-Stack passionnée par les créations d'expériences web, accéssible et esthétique.
                             Curieuse, autonome et rigoureuse
                         </p>
+                        <button>
+                            <a href="#">En savoir plus +</a>
+                        </button>
                     </div>
                 </div>
 
                 
 
                 <div class="ligne">
-                    <div class="info">
+                    <div class="info4">
                         <div class="nom">
                             <div>
                                 <i class="fa-regular fa-user"></i>
                             </div>
                             <div>
                                 <h6>Nom</h6>
-                                <p>Ouattara Y</p>
+                                <p>Ouattara Yah</p>
                             </div>
                         </div>
 
@@ -134,44 +152,67 @@
 
         <!--Contact-->
         <section class="contact">
-            <h2>Contact</h2>
-            <form>
-                <label>Nom</label>
-                <input type="name" placeholder="Entrez votre nom">
+            <div class="contact-left">
 
-                <label>E-mail</label>
-                <input type="email" placeholder="Entrez votre email">
+                <h2>
+                    <i class="fa-regular fa-envelope"></i>
+                    Contact
+                </h2>
 
-                <textarea placeholder="Votre message"></textarea>
+                <p>
+                    Vous avez un projet en tête ou souhaitez collaborer ?
+                    <br>
+                    N'hésitez pas à me contacter !
+                </p>
 
-                <input type="submit" value="Envoyer">
-            </form>
-        </section>
+                <div class="contact-info">
+
+                    <div class="info">
+                        <i class="fa-regular fa-envelope"></i>
+                        <span>yahouattara64@gmail.com</span>
+                    </div>
+
+                    <div class="info">
+                        <i class="fa-solid fa-phone"></i>
+                        <span>+225 0789164708</span>
+                    </div>
+
+                    <div class="info">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>Abidjan, Côte d'Ivoire</span>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="contact-right">
+
+                <form>
+
+                    <div class="input-group">
+                        <input type="text" placeholder="Nom">
+                        <input type="email" placeholder="Email">
+                    </div>
+
+                    <textarea placeholder="Message"></textarea>
+
+                    <button type="submit" class="btn2">
+                        Envoyer le message
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+
+                </form>
+
+            </div>
+        </section>    
     </main>
 
     <!--Pieds de page-->
     <footer>
-        <!--Lien utile-->
-        <h4>Lien utile</h4>
-        <ul>
-            <li>
-                <a href="#">À propos</a>
-            </li>
-
-            <li>
-                <a href="#">Travail</a>
-            </li>
-
-            <li>
-                <a href="#">CV</a>
-            </li>
-
-            <li>
-                <a href="#">Contact</a>
-            </li>
-        </ul>
-
-        <p>Tout droit réservé: Oauttara 2026</p>
+        <hr>
+        <div>
+            <p>© 2026 Ouattara Yah. Tous droits réservés.</p>
+        </div>
     </footer>
 </body>
 </html>
